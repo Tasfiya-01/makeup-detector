@@ -315,10 +315,8 @@ with tab3:
     st.markdown('<div class="section-title">🤖 About This App</div>', unsafe_allow_html=True)
     st.markdown("""
         <div class="about-card">
-            <b>Model:</b> YOLOv8n (You Only Look Once v8 Nano)<br>
-            <b>Training:</b> 50 epochs on custom makeup dataset<br>
-            <b>Dataset:</b> 1329 training images, 747 validation images<br>
-            <b>Best mAP50:</b> 46.9%<br>
+           <b>Dataset:</b> 1,500 training images, 413 validation images, 207 test images<br>
+            <b>Validation mAP50:</b> 46.9% | <b>Test mAP50:</b> 48.9%<br>
             <b>Categories:</b> 31 makeup product classes
         </div>
         <div class="about-card">
